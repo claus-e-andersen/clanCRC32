@@ -3,17 +3,17 @@
 \name{convert.hex}
 \alias{convert.hex}
 \title{Convert hex strings to integers (needed in CRC32 computations)
-Does notbreak the 2^31 limit.}
+Does not break the 2^31 limit.}
 \usage{
 convert.hex(x)
 }
 \arguments{
-\item{x}{}
+\item{Hex}{string to be converted.}
 }
 \value{
 CRC32 value
 }
 \description{
 Convert hex strings to integers (needed in CRC32 computations)
-Does notbreak the 2^31 limit.
+Does not break the 2^31 limit.
 }

@@ -1,7 +1,7 @@
 #' @title Convert hex strings to integers (needed in CRC32 computations)
-#' Does notbreak the 2^31 limit.
+#' Does not break the 2^31 limit.
 #' @name convert.hex
-#' @param x
+#' @param Hex string to be converted.
 #'
 #' @return CRC32 value
 #'
