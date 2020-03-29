@@ -17,28 +17,6 @@
 #' See also \link{prepanel.robust.y} and \link{prepanel.robust.xy}
 #' Example:
 #'
-#' N <- 40 # two of which are NA-values
-#'
-#' df <- data.frame(model= sample(c("M1"),size=N,replace=TRUE), cap= sample(c("A","B","C"),size=N,replace=TRUE),
-#' pA = c(NA,NA,rnorm(N-2,mean=9e99,sd=0.001)))
-#'
-#' dotplot(cap ~ pA | paste(model),
-#'
-#' limit.mean = 0.05, # Make sure we have an x-scale of at least +/- 5\% of the mean
-#'
-#' prepanel=prepanel.robust.x,
-#'
-#' groups=cap,
-#'
-#' auto.key=list(TRUE),
-#'
-#' data=df,
-#'
-#' panel=function(x,y,...){
-#'
-#' panel.dotplot(x,y,...)
-#'
-#' })
 #' @usage none
 #' @name convert.hex
 #' @author Claus E. Andersen
