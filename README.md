@@ -1,2 +1,1 @@
-# clanCRC32
-sfdf5
+R functions for cyclic redundency checks (32 bit) of files.
