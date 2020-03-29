@@ -1,6 +1,6 @@
 #' @title Convert hex string to decimal number.
 #' @description
-#' # This function converts hex strings to integers
+#' This function converts hex strings to integers
 #' without breaking the 2^31 limit.
 #' @usage convert.hex("FF")
 #' @name convert.hex

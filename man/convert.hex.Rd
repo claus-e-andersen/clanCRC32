@@ -13,7 +13,7 @@ convert.hex("FF")
 integer
 }
 \description{
-# This function converts hex strings to integers
+This function converts hex strings to integers
 without breaking the 2^31 limit.
 }
 \author{
