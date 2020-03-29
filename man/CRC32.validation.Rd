@@ -4,17 +4,20 @@
 \alias{CRC32.validation}
 \title{CRC32 validation of given file}
 \usage{
+require(digest)
+
 CRC32.validation("C:\\data\\projects\\R\\work\\exp100830-cobalt-calibrations\\exp100914.txt")
 }
 \arguments{
-\item{file.name}{e.g. "c:\\data\\ME30-data\\catest20006a.txt",}
+\item{file.name}{e.g. "c:\\data\\ME30-data\\catest20006a.txt"}
 
 \item{delimiter}{e.g. ";"}
 
 \item{stop.if.fault}{(TRUE or FALSE)}
 }
 \value{
-a list with xlim-values for a trellis plot.
+a list with  ok status (TRUE/FALSE), N.ok.lines  (number of lines in file that are validated) and
+N.not.ok.lines (number of lines that are not ok).
 }
 \description{
 Each line is terminated with a CRC32 code. This function
