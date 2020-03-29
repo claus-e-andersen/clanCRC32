@@ -16,7 +16,7 @@ CRC32.validation("C:\\data\\projects\\R\\work\\exp100830-cobalt-calibrations\\ex
 \item{stop.if.fault}{(TRUE or FALSE)}
 }
 \value{
-a list with  ok status (TRUE/FALSE), N.ok.lines  (number of lines in file that are validated) and
+a list with  ok status for the entire file (TRUE/FALSE), N.ok.lines  (number of lines in file that are validated) and
 N.not.ok.lines (number of lines that are not ok).
 }
 \description{

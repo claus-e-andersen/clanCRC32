@@ -5,8 +5,8 @@
 #' @name clanCRC32
 #' @author Claus E. Andersen
 #' @return A list of information about the version and functions within clanCRC32.
-#' @export
-clanLattice <- function(){
+#' @export clanCRC32
+clanCRC32 <- function(){
   list(name="clanCRC32",
        version=0.001,
        date="March 29, 2020",

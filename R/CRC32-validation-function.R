@@ -9,7 +9,7 @@
 #'
 #' @name CRC32.validation
 #' @author Claus E. Andersen
-#' @return a list with  ok status (TRUE/FALSE), N.ok.lines  (number of lines in file that are validated) and
+#' @return a list with  ok status for the entire file (TRUE/FALSE), N.ok.lines  (number of lines in file that are validated) and
 #' N.not.ok.lines (number of lines that are not ok).
 #' @param file.name e.g. "c:\\data\\ME30-data\\catest20006a.txt"
 #' @param delimiter  e.g. ";"

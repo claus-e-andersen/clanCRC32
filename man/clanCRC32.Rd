@@ -2,7 +2,6 @@
 % Please edit documentation in R/clanCRC32-function.R
 \name{clanCRC32}
 \alias{clanCRC32}
-\alias{clanLattice}
 \title{Version function for the clanCRC32 library}
 \usage{
 clanCRC32()
