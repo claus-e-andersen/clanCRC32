@@ -2,7 +2,7 @@
 % Please edit documentation in R/convert-hex-function.R
 \name{convert.hex}
 \alias{convert.hex}
-\title{convert.hex Robust prepanel function for lattice plots (xlim).}
+\title{convert.hex rrRobust prepanel function for lattice plots (xlim).}
 \usage{
 none
 }

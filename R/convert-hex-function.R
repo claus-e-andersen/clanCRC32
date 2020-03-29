@@ -1,4 +1,4 @@
-#' @title convert.hex Robust prepanel function for lattice plots (xlim).
+#' @title convert.hex rrRobust prepanel function for lattice plots (xlim).
 #' @description
 #' This prepanel function can provide useful scales even if there is
 #' only one data point or if all values are identical (no variability).
