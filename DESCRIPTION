@@ -8,6 +8,8 @@ Description: Functions for cyclic redundency checks (32-bit)
 URL: www.dtu.dk
 Depends:
     R (>= 3.1.1)
+Imports:
+    digest
 License: GPL (>= 3)
 Repository: GITHUB / claus-e-andersen
 LazyData: true
