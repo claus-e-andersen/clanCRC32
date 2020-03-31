@@ -36,7 +36,7 @@ CRC32.validation <- function(file.name="c:\\data\\ME30-data\\catest20006a.txt",
     ii <- regexpr(";[0-9]*$",sss)
     x.stuff <- substring(sss,1,ii-1)
     x.code <- substring(sss,ii+1,99999999)
-    dd <- digest(x.stuff,algo='crc32',ascii=FALSE,serialize=FALSE)
+    dd <- digest::digest(x.stuff,algo='crc32',ascii=FALSE,serialize=FALSE)
     d.code <- convert.hex(dd)
     if(!is.na(x.code) & !is.na(d.code)){
       if(!(x.code==d.code)){
